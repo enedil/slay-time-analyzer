@@ -130,6 +130,7 @@ fn analyze(db: rusqlite::Connection) {
         results.push(((count as f64) * (DURATION.as_millis() as f64) / 1000.0, appid, title));
     };
     results.sort_by(|x, y| x.0.partial_cmp(&y.0).unwrap());
+    results.reverse();
 
     println!("Chat | Time");
     for (time, appid, title) in results.iter() {
