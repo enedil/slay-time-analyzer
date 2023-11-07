@@ -1,3 +1,4 @@
+Start with `cargo build --release`.
 There are two modules. First one hardly works correctly, and lacks appropriate analyzer and will be described later.
 
 # Version 1:
