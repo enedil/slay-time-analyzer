@@ -1,5 +1,5 @@
 mod telegram_utils;
-use log::{error, trace, warn, info};
+use log::{error, warn, info};
 use rusqlite;
 use std::time::SystemTime;
 use std::{collections::HashMap, time::Duration};
