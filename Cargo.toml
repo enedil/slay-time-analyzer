@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "telegramchatstats-analyzer"
-path = "src/analyzer.rs"
+name = "telegramchatstats-sampler"
+path = "src/sampler.rs"
 
 [dependencies]
 regex = "1.10.2"

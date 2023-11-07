@@ -1,4 +1,4 @@
-Start with `cargo build --release`.
+Start with `rustup override set 1.71.0 && cargo build --release`.
 There are two modules. First one hardly works correctly, and lacks appropriate analyzer and will be described later.
 
 # Version 1:
