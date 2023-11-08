@@ -9,7 +9,7 @@ There are two modules. Second one hardly works correctly, and lacks appropriate 
 ## Version 1:
 
 Version 1 samples each 10ms the state of window tree, selects the focused window and records the info.
-Add `exec $PATH_TO_CLONED_DIR/swaylauncher.sh` to your sway config. Analyze results with `cargo run --bin telegramchatstats-sampler analyze` from the repository directory.
+Add `exec $PATH_TO_CLONED_DIR/swaylauncher.sh` to your sway config. Analyze results with `cargo run --bin telegramchatstats-sampler analyze` from the repository directory. This version logs important messages to journalctl.
 
 ## Version 2:
 Version 2 listens on events from Sway - when focus changes or window title changes, it records the change.
